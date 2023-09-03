@@ -1,0 +1,25 @@
+// *{
+//     outline: 1px solid skyblue;
+// }
+img{
+    vertical-align: bottom;
+}
+input.form-control{
+    &::placeholder{
+        font-size: 16px;
+        color: $text-muted !important;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+}input.form-control-sm{
+    &::placeholder{
+        font-size: 16px;
+        line-height: 1;
+        color: $text-muted !important;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+}
+a{
+    display: inline-block;
+    cursor: pointer;
+    transition: all .3s;
+}

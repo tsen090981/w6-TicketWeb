@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>activity-detail</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <section class="container pt-18 pt-md-19 pt-lg-8">
+      <div class="row">
+        <div class="col-12 col-md-10 mb-2 mb-md-0">
+          <div class="border border-2 border-lg-3 border-secondary p-3 p-lg-6">
+            <div class="d-none d-md-block bg bg-size-cover bg-recent-pic-9 banner-size-m"></div>
+            <div class="d-block d-md-none bg bg-size-cover bg-recent-pic-9 banner-size-m-sm"></div>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-2 ps-0">
+          <div class="d-flex flex-column justify-content-between h-100">
+            <div class="border border-2 border-lg-3 border-secondary mb-3 d-flex align-items-center justify-content-center">
+              <p class="fs-3 py-8">2023</p>
+            </div>
+            <div class="border border-2 border-lg-3 border-secondary d-flex justify-content-between flex-column align-items-center py-11 h-100">
+              <div class="fs-3 text-center mb-5">
+                <p class="mb-1">MAY</p>
+                <p class="">19</p>
+              </div>
+              <div class="bg-secondary line-size-l"></div>
+              <div class="d-flex flex-column align-items-center fs-5 mt-5 lh-sm">
+                <p>12:00</p>
+                <p class="my-1">｜</p>
+                <p>20:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-block d-md-none">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-4 pe-0">
+                <div class="border border-2 border-secondary h-100  d-flex align-items-center justify-content-center">
+                  <p class="fs-6">2023</p>
+                </div>
+              </div>
+              <div class="col-8 ps-2">
+                <div class="border border-2 border-secondary py-3 ps-6 pe-6 d-flex align-items-center justify-content-between">
+                  <div class="fs-3 text-center lh-sm">
+                    <p class="fs-7s">MAY</p>
+                    <p class="fs-7s">19</p>
+                  </div>
+                  <div class="bg-secondary line-size-l"></div>
+                  <div class="d-flex flex-column align-items-center lh-sm">
+                    <p>12:00</p>
+                    <p>｜</p>
+                    <p>20:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container py-6 pt-lg-6 pb-lg-11">
+      <h2 class="fs-5 fs-lg-2 mb-2 mb-lg-4">返老還童-制服聯誼</h2>
+      <p class="fs-lg-7s font-f-Sans mb-md-6">
+        穿上制服，無年齡限制，一起走上街頭、尋找青春才有的純愛心動！
+      </p>
+      <div class="d-none d-md-block">
+        <ul class="label__list mb-3 mb-lg-8">
+          <li class="label__item">
+            <a href="#">聯誼</a>
+          </li>
+          <li class="label__item">
+            <a href="#">美食</a>
+          </li>
+          <li class="label__item">
+            <a href="#">戶外</a>
+          </li>
+          <li class="label__item">
+            <a href="#">交通旅遊</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container pb-6 pb-md-9 pb-lg-11">
+      <div class="border border-2 border-lg-3 border-secondary p-4 p-lg-8 font-f-Sans lh-base">
+        <p>
+          想回到過去？試著讓故事繼續？
+          <br>
+          <br>由戀愛家教「艾德溫」主辦策劃，讓各位在安排好的青春行程中擁有自然的純愛互動體驗，互相餵食餅乾、觀察對方手相，有趣的互動環節讓你/妳怦然心動！制服由主辦方提供，妝髮造型可額外加價購！
+          <br>
+          <br>活動中全程會有隨行攝影師，捕捉你們的純愛互動，拍攝成實境電視劇，讓你們能留下永恆的美好回憶&lt;3
+        </p>
+      </div>
+    </section>
+    <section class="container pb-2 pb-lg-4">
+      <div class="px-lg-8 pt-lg-6 pb-lg-6 px-3 pt-4 pb-4 d-flex justify-content-between border border-2 border-lg-3 border-secondary align-items-center mb-2 mb-lg-4">
+        <h2 class="fs-7 fs-md-4 fs-lg-1 font-f-Yeseva">TICKET</h2>
+        <h3 class="fs-10 fs-md-7 fs-lg-5">購票資訊</h3>
+      </div>
+    </section>
+    <section class="container pb-11 pb-lg-12">
+      <table class="table fs-11 fs-md-10 lh-sm text-nowrap">
+        <thead>
+          <tr class="border-bottom border-2 border-lg-3 border-secondary">
+            <th scope="col">活動日期</th>
+            <th scope="col">票種</th>
+            <th scope="col">票價</th>
+            <th scope="col" class="text-center">購票</th>
+          </tr>
+        </thead>
+        <tbody class="font-f-Sans align-middle">
+          <tr class="border-bottom border-secondary">
+            <td scope="row">2023/5/12</td>
+            <td>普通票</td>
+            <td>$600</td>
+            <td>
+              <button class="d-none d-md-block btn btn-outline-secondary btn-sm font-f-Serif px-6 ms-auto">
+                立即購票
+              </button>
+              <button class="d-block d-md-none btn btn-outline-secondary btn-sm font-f-Serif px-3">
+                購票
+              </button>
+            </td>
+          </tr>
+          <tr class="border-bottom border-secondary">
+            <th scope="row">2023/5/12</th>
+            <td>改頭換面票（含大改造）</td>
+            <td>$3600</td>
+            <td>
+              <button class="d-none d-md-block btn btn-outline-secondary btn-sm font-f-Serif px-6 ms-auto">
+                立即購票
+              </button>
+              <button class="d-block d-md-none btn btn-outline-secondary btn-sm font-f-Serif px-3">
+                購票
+              </button>
+            </td>
+          </tr>
+          <tr class="border-bottom border-secondary">
+            <th scope="row">2023/5/12</th>
+            <td>必勝票（含戀愛小抄）</td>
+            <td>$8000</td>
+            <td>
+              <button class="d-none d-md-block btn btn-outline-secondary btn-sm font-f-Serif px-6 ms-auto">
+                立即購票
+              </button>
+              <button class="d-block d-md-none btn btn-outline-secondary btn-sm font-f-Serif px-3">
+                購票
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

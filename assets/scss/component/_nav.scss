@@ -1,0 +1,13 @@
+nav{
+    input.form-control{
+        width: 285px;
+        @include media-breakpoint-down(md){
+            width: auto;
+            max-width: 200px;
+        }
+        @include media-breakpoint-down(sm){
+            width: auto;
+            max-width: 168px;
+        }
+    }
+}

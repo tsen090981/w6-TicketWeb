@@ -1,0 +1,34 @@
+// Utilities
+
+$utilities: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$utilities: map-merge(
+  (
+    // scss-docs-end utils-spacing
+    // Text
+    // scss-docs-start utils-text
+    "font-size": (
+      rfs: true,
+      property: font-size,
+      class: fs,
+      values: $font-sizes,
+      responsive: true
+    ),
+    "border-start": (
+      property: border-left,
+      class: border-start,
+      values: (
+        null: var(--#{$prefix}border-width) var(--#{$prefix}border-style) var(--#{$prefix}border-color),
+        0: 0,
+      ),
+      responsive: true
+    ),
+    "border-width": (
+      property: border-width,
+      class: border,
+      values: $border-widths,
+      responsive: true
+    ),
+  ),
+  $utilities
+);

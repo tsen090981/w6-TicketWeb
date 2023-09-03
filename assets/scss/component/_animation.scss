@@ -1,0 +1,23 @@
+.animation-news-ticker{
+    position: absolute;
+    animation: news-ticker 36s linear infinite both;
+    left: 0;
+    @include align-center;
+}
+.animation-news-ticker-reverse{
+    position: absolute;
+    animation: news-ticker-reverse 36s linear infinite both;
+    right: 0;
+    @include align-center;
+}
+
+@keyframes news-ticker{
+      0% {left: 0%;}
+     50% {left: 100%;}
+    100% {left: 0%;}
+}
+@keyframes news-ticker-reverse{
+    0% {right: 0%;}
+   50% {right: 100%;}
+  100% {right: 0%;}
+}

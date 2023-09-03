@@ -1,0 +1,29 @@
+.pagination{
+    gap: 0 8px;
+    .page-item{
+        &:first-child{
+            .page-link{
+                padding: 11px;
+                line-height: 1;
+            }
+        }
+        &:last-child{
+            .page-link{
+                padding: 11px;
+                line-height: 1;
+            }
+        }
+        .page-link{
+            line-height: 1.5;
+            padding: 8px 15px 8px 15px;
+            &:hover{
+                color: $primary;
+                border: 1px solid $secondary;
+            }
+            i{
+                font-size: 18px;
+            }
+        }
+    }
+    
+}

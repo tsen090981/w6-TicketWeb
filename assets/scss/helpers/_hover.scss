@@ -1,0 +1,10 @@
+a.hover__color--primary{
+    &:hover{
+        color: $primary;
+    }
+}
+a.hover__color--none{
+    &:hover{
+        color: $secondary;
+    }
+}
